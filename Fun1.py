@@ -1,4 +1,5 @@
 #function for adding two numbers x and y
+#python program
 
 def add(x,y):
     a=x+y
