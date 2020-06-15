@@ -1,8 +1,8 @@
-#function for adding two numbers x and y
-#python program
+#Program to convert tuple to list and again to tuple
+#Creating Tuple 
+tup1=(1,2,3,4,5)
+List1=list(tup1)
+List1.append(6)
+tup1=tuple(List1)
+print('Your tuple is :',tup1)
 
-
-def add(x,y):
-    a=x+y
-    print('Addition for x and y is')
-    return x+y
